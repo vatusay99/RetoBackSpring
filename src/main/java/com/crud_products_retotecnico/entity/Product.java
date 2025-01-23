@@ -17,9 +17,7 @@ public class Product {
     private Float price = 0F;
     private Integer cantidad_stock = 0;
 
-    public Product(){
-
-    }
+    public Product(){ }
 
     public Product(Integer id, String product_name, String categori, Float price, Integer cantidad_stock) {
         this.id = id;
